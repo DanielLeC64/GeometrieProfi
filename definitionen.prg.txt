@@ -1,0 +1,35 @@
+Definitionen:Flächen:
+Rechteck     :-alle Innenwinkel sind 90 Grad
+              -die Diagonalen sind gleich lang und
+               halbieren einander
+              -gegenüberliegende Seiten sind parallel
+               und gleich lang
+Rhombus      :-die Diagonalen stehen senkrecht
+(Raute)        aufeinander und halbieren einander
+              -alle Seiten sind gleich lang
+              -gegenüberliegende Seiten sind parallel
+Trapez       :-mindestens 2 Seiten sind parallel
+Parallelogr. :-die Diagonalen halbieren einander
+              -gegenüberliegende Winkel sind gleich groß
+              -gegenüberliegende Seiten sind parallel
+               und gleich lang
+Drachen-     :-die Diagonalen stehen senkrecht
+viereck        aufeinander
+              -mind. 2 gegenüberliegende Winkel sind
+               gleich groß
+Sehnenviereck:-alle Eckpunkte liegen auf einem Kreis
+              -die Summe gegenüberliegender Winkel
+               ist 180 Grad
+regelmäßiges :-alle Innenwinkel sind gleich groß
+Vieleck       -alle Seiten sind gleich lang
+
+allg.Bezeichnungen:Körper:
+V        = Volumen
+Ad       = Deckfläche
+Ag       = Grundfläche
+Am       = Mantelfläche
+Ao       = Oberfläche
+a,b,c,d  = Kantenlängen
+s        = Seitenkante
+h        = Körperhöhe
+e        = Diagonale

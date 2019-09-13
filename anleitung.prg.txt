@@ -1,0 +1,42 @@
+Anleitung zum Programm GEOMETRIE-PROFI
+
+Das Programm 'Geometrie-Profi' dient zur Berechnung von Körpern und Flächen aus beliebig gegebenen Werten. Die Steuerung erfolgt mittels eines Joysticks in Port II oder einer Maus in Port I. Nach dem Start mit RUN fragt das Programm, ob Sie mit einer Flächen-oder Körperberechnung beginnen möchten. Nachdem Sie sich durch anklicken eines der beiden Fenster entschieden haben, können Sie in einem großen Menü eine Fläche/einen Körper auswählen. Daraufhin erscheint der Hauptbildschirm, in dem alle Eingaben und Ausgaben erfolgen. Am oberen Bildschirmrand befinden sich 4 Fenster:
+FLÄCHEN/KÖRPER: Durch anklicken wechselt man in das Flächen/Körper-Menü.
+WECHSEL       : Hiermit kann eine andere Fläche/ein anderer Körper ausgewählt werden.
+NEU           : Durch diesen Menüpunkt werden alle Eingaben auf dem Bildschirm und im Speicher gelöscht.
+START         : startet den Rechenvorgang!
+Auf der linken Seite befindet sich ein großes Grafikfenster, in dem sich eine Abbildung der Fläche/des Körpers befindet. Direkt darüber kann man noch einmal den Namen zur Information finden.
+Unter dem Grafikfenster und auf der gesamten rechten Seite befinden sich die EINGABEFENSTER, in die man die gegebenen Werte eintragen kann. Es existieren insgesamt 8 solcher Fenster. Es sind jedoch nicht immer alle davon belegt. Um eine Eingabe zu tätigen, klickt man einfach auf das entsprechenden Fenster, wobei der alte Wert automatisch gelöscht wird. Der Computer wartet dann auf ihre Eingabe, welche mit RETURN abgeschlossen werden muß. Es sind maximal 11-stellige Zahlen erlaubt. Während einer Eingabe reagiert der Computer nur auf die Zahlentasten, die DEL-, die Return- und die Komma/Punkt Taste. Nachdem die Berechnung gestartet wurde, berechnet das Programm alle möglichen Werte, und gibt diese auf dem Bildschirm aus. Sollten nur einige Werte oder gar keine Werte ausgegeben werden, überprüfen Sie nochmals ihre Eingaben.
+FEHLER:1. Es besteht die Möglichkeit, daß zu wenig Vorgaben vorhanden sind und das Programm aus diesen nichts errechnen kann.
+       2. Es gab Werte, die zu einem Fehler während der Berechnung führten (Bsp.: Division durch Null ; Wurzel aus einer neg.Zahl)
+       3. Es wurde eine der folgenden, im Programm enthaltenen, Bedingungen nicht erfüllt:
+BEDINGUNGEN:1.Flächen: Rechteck: e=>a,b
+                       Rhombus : u=>e,f
+                       Trapez  : u=>a,b,c,d,m,h
+                                 h=<b,d
+                       Parall. : e=>a,b
+                                 f=>a,b
+                                 h=<b,e,f
+                       Sehnen- : u=>a,b,c,d,e,f
+                       viereck
+                       Drachen-: u=>a,c,e,f
+                       viereck
+                       Vieleck : u=>a
+                       Kreis   : u=>r
+                       allg.   : u=>a,b,c,hc
+                       Dreieck
+                       rechtw. : u=>a,b,c,p,q,hc
+                       Dreieck
+                       gleichs.: u=>a,h
+                       Dreieck
+            2.Körper:  Hohlzylinder: r2=>r1,a
+                       Kreiskegel  : s =>h
+                       Kegelstumpf : r1=>r2
+                                     s =>h
+                       Pyram.stumpf: Ag=>Ad
+                                     Ao=>Am
+                                     Am=>A1
+                       Kugelabschn.: r =>h,R
+                       Kugelausschn.:r =>h,R
+                       Kugelschicht: r =>R1,R2
+                                     2r=>h

@@ -1,0 +1,14 @@
+Informationen und Hinweise zum Programm
+Das Programm 'Geometrie-Profi' wurde komplett in Assembler geschrieben. Der Programmcode hat eine Länge von rund 30 KByte und die Grafik von rund 25 KByte. Es können 13 verschiedene Körper und 11 verschiedene Flächen berechnet werden. Es wurden insgesamt 236 Formeln integriert! Der größte Teil der Formeln und Definitionen wurde aus dem Tafelwerk 'Formeln und Tabellen' von Paetec übernommen!
+Die Speicheraufteilung:  $0800-$1000  Zeichensatz
+                         $1000-$2000  Programmcode
+                         $2000-$2640  Grafikdisplay
+                         $2640-$7db2  Programmcode
+                         $8d40-$c000  Grafik
+                         $c000-$d000  Programmcode
+                         $d000-$ffff  Grafik
+Die Grafik wurde in Form von Sprites im Speicher abgelegt und wird mit Hilfe eines 5*5 Spritefeld auf dem Bildschirm angezeigt. Das Programm wurde so programmiert, daß es Fehler selbständig erkennt und den Rechenvorgang abbricht. Alle Rechnungen werden mit Hilfe der C64 ROM-Routinen ausgeführt. Es sind keine trigonometrischen Berechnungen am Dreieck möglich!
+Sollte das Programm doch einmal abstürzen???, kann es mit SYS 4096 neu gestartet werden!
+Module sollten vor Programmstart abgeschaltet werden, da diese eventuell zum Flackern des Bildschirms führen.
+Das Programm mußte mit dem Modul ACTION-CARTRIDGE PLUS Version 7.2 eingefroren werden, da sich kein Packer fand, der in der Lage war, das gesamte Programm so zu packen, daß es fehlerlos funktionierte! (getestete Packer:Sir-Compact iv, ISC , Beta-Turbo-Cruncher)
+Am Ende wurde die eingefrorene Version noch mit Hilfe des Beta-Turbo-Crunchers mit dem Titelbild verbunden. Auf Diskette finden sie die normale Version und zusätzlich noch eine stark gepackte Version.
